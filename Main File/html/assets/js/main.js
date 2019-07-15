@@ -308,4 +308,8 @@
       $("html, body").animate({scrollTop: 0}, 300);
   });
 
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
 })(jQuery); 
