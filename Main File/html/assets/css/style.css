@@ -327,6 +327,16 @@ global css
 	font-family: var(--heading-font-bold);
 	color: #ffffff;
 }
+.single-page-banner .banner-content p {
+	font-family: var(--heading-font-regu);
+	color: #ffffff;
+	max-width: 100%;
+}
+.single-page-banner .banner-content div {
+	font-family: var(--heading-font-regu);
+	color: #ffffff;
+	max-width: 100%;
+}
 .breadcrumb {
 	background-color: transparent;
 	-webkit-box-pack: center;
