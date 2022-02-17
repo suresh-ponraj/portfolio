@@ -140,7 +140,7 @@
       color: "#6e41ff"
     }
   }).on("circle-animation-progress", function(event, progress) {
-    $(this).find("strong").html(Math.round(70 * progress) + "<span>%</span>");
+    $(this).find("strong").html(Math.round(85 * progress) + "<span>%</span>");
   });
 
   //fourth.circle
